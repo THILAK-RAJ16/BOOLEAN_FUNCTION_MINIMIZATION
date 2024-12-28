@@ -34,6 +34,20 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
  Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+ ```
+module form(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
+endmodule
+```
+```
+module Form2(x,y,z,w,f2);
+input x,y,z,w;
+output f2;
+assign f2=((x&~y&z)|(~x&~y&z)|(~w&x&y)|(w&~x&y)|(w&x&y));
+endmodule
+```
 
 
 
