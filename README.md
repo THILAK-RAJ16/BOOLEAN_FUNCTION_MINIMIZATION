@@ -47,7 +47,8 @@ RegisterNumber:24900585
 ![Screenshot 2024-11-05 132512](https://github.com/user-attachments/assets/f5b17f41-de89-4f98-80bc-fda5c448c529)
 
 **Output:**
-![Screenshot 2024-10-29 144133](https://github.com/user-attachments/assets/a8cb2f98-1ad6-4a6b-ac98-d9a4f4239dfa)
+![Screenshot 2024-11-04 094418](https://github.com/user-attachments/assets/60521c61-cbc2-4305-b622-fd88f3a31842)
+
 ![Screenshot 2024-11-05 132326](https://github.com/user-attachments/assets/22ed7e5f-071d-4678-80f6-c64c5b766730)
 
 
