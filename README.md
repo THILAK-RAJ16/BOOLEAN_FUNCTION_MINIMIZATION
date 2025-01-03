@@ -57,7 +57,7 @@ endmodule
 module Form2(x,y,z,w,f2);
 input x,y,z,w;
 output f2;
-assign f2=((x&~y&z)|(~x&~y&z)|(~w&x&y)|(w&~x&y)|(w&x&y));
+assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 ```
 
@@ -73,14 +73,16 @@ RegisterNumber:24900585
 F1
 ![Screenshot 2024-11-04 093124](https://github.com/user-attachments/assets/04c9dc43-35e4-4d7a-96c0-79892c9788a5)
 F2
-![Screenshot 2024-11-05 132512](https://github.com/user-attachments/assets/f5b17f41-de89-4f98-80bc-fda5c448c529)
+![image](https://github.com/user-attachments/assets/817fbe6a-d1ef-4349-ac18-2dc7e46c51ef)
+
 
 **Output:**
 
 F1
 ![Screenshot 2024-11-04 094418](https://github.com/user-attachments/assets/60521c61-cbc2-4305-b622-fd88f3a31842)
 F2
-![Screenshot 2024-11-05 132326](https://github.com/user-attachments/assets/22ed7e5f-071d-4678-80f6-c64c5b766730)
+![image](https://github.com/user-attachments/assets/46453dff-f950-436d-9db4-97ae83367440)
+
 
 
 **Result:**
